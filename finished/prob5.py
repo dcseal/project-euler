@@ -14,3 +14,4 @@ N   = 20
 num = 1
 for n in range(2,N): 
     num = lcm(num,n)
+print('num = %d\n' % num )
