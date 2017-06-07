@@ -13,3 +13,4 @@ for n in range( digits, 0, -1 ):
     for m in range( digits, 0, -1 ):
         if( is_palindrome( n*m ) ):
             maxpal = max( maxpal, n*m )
+print('Maximum palindrom = %d\n' % maxpal )
