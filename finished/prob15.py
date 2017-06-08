@@ -11,6 +11,6 @@ def lattice_path(n,m):
     else:
         return lattice_path(n-1,m) + lattice_path(n,m-1)
 
-#   return lattice_path(n-1,m) + lattice_path(n,m-1)
+    return lattice_path(n-1,m) + lattice_path(n,m-1)
 
-#print( lattice_path(20,20) )
+print( lattice_path(20,20) )

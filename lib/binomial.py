@@ -10,5 +10,5 @@ def binom(n,k):
         tmp *= (n-(k-i)) / float( i )
     return int(tmp)
 
-def binomial_modp(n,k,p):
+#def binomial_modp(n,k,p):
 

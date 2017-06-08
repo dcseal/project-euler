@@ -102,6 +102,27 @@ def solve_system(avec,mvec):
         x = (x + yvec[k]*(M[k])*avec[k]) % m
     return x
 
+def is_prime(n,primes):
+
+    import math
+
+    n = abs(n)
+    sqrtn = math.sqrt(n)
+    for p in primes:
+        if( p > sqrtn ):
+            return True
+        if( n%p == 0 ):
+            return False
+    return True
+
+def prime_sieve(N):
+    """Returns a list of all primes smaller than N.
+    
+    TODO - rewrite this to use a prime sieve.
+    """
+
+    return 0
+
 if __name__=='__main__':
     '''This simply tests the solve_system problem ... more tests should surely
     be written'''
